@@ -1,0 +1,7 @@
+{
+  "database": {
+    "dbname": "db_prod",
+    "userid": "sa",
+    "password": "12345"
+  }
+}
