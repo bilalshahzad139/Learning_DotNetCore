@@ -12,11 +12,11 @@
 **Steps**
 1) Create a .NET Core Console Application
 2) Install following Packages
-Microsoft.Extensions.Configuration
-Microsoft.Extensions.Configuration.Json
-Microsoft.Extensions.Configuration.Xml
-Microsoft.Extensions.Configuration.EnvironmentVariables
-Microsoft.Extensions.Configuration.CommandLine
+- Microsoft.Extensions.Configuration
+- Microsoft.Extensions.Configuration.Json
+- Microsoft.Extensions.Configuration.Xml
+- Microsoft.Extensions.Configuration.EnvironmentVariables
+- Microsoft.Extensions.Configuration.CommandLine
 
 3) Add Two Json files (Right click on project -> Add -> New - Json File.
 settings.json (Click on file and change "Copy to output Directory" => "Copy Always")
