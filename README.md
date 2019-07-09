@@ -69,3 +69,18 @@ To Pass arguments
 
 To create an environment variable
 > SET MYAPP_DATA=3
+
+## DependencyInjection DEMO
+In demo (Video), We've learnt what is Dependency Injection and what happens if we don't follow DI principal. Then we saw, what is IoC Container (a framework for implementing automatic dependency injection. It manages object creation and it's life-time, and also injects dependencies to the class).
+
+.NET Core provides built-in IoC Container
+
+**Steps**
+1) Create a .NET Core Console Application
+2) Install following Package
+- Microsoft.Extensions.DependencyInjection
+3) Add Name space (Microsoft.Extensions.DependencyInjection)
+4) Check MyDependency.cs file
+5) Check Consumer file
+6) Check Program.cs file
+----
