@@ -1,0 +1,21 @@
+{
+  "cst": "testing12345",
+  "level": "1",
+  "database": {
+    "dbname": "test",
+    "userid": "sa",
+    "password": "123"
+  },
+  "Logging": {
+    "Console": {
+      "LogLevel": {
+        "Default": "Warning"
+      }
+    },
+    "LogLevel": {
+      "Default": "Error"
+    }
+  }
+}
+
+

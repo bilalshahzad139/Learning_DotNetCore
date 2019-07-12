@@ -84,3 +84,15 @@ In demo (Video), We've learnt what is Dependency Injection and what happens if w
 5) Check Consumer file
 6) Check Program.cs file
 ----
+
+## LoggingDEMO
+In this demo, We've discussed New Logging Framework Provided by .NET Core. We've learnt
+- What is new Logging Framework in .NET Core? => Microsoft.Extensions.Logging
+- What is a Logging Provider? => Example: Microsoft.Extensions.Logging
+-- These provide Extension Methods to Register with DI (e.g. AddConsole())
+- How to use Logger with DI Framework
+- How to use ILoggerFactory to Create Logger Instance
+- How to filter Log Messages by Log Levels => AddFilter
+- How to use Configuration with Logging
+- How to use Logger in a different class (e.g. Get Logger from DI)
+- Example of another Provider (NLog)
