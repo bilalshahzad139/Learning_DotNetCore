@@ -96,3 +96,12 @@ In this demo, We've discussed New Logging Framework Provided by .NET Core. We've
 - How to use Logger in a different class (e.g. Get Logger from DI)
 - Example of another Provider (NLog)
 
+----
+## Middleware Basics DEMO
+In this demo, we've created an Empty ASP.NET Core Project and discussed following pionts
+- What is a middleware
+- Run, Map, Map*, Use functions
+- next() delegate
+- Creating a new Middleware
+- Injecting ILogger Dependency 
+
