@@ -4,20 +4,21 @@ using System.Text;
 
 namespace DependencyInjectionDemo
 {
-    /*
-    public class MyDependency
-    {
-        public MyDependency()
-        {
-        }
-        public void WriteMessage(string message)
-        {
-            Console.WriteLine(
-                $"MyDependency.WriteMessage called. Message: {message}");
-        }
-    }
-    */
 
+    //public class MyDependency
+    //{
+    //    public MyDependency()
+    //    {
+    //    }
+    //    public void WriteMessage(string message)
+    //    {
+    //        Console.WriteLine(
+    //            $"MyDependency.WriteMessage called. Message: {message}");
+    //    }
+    //}
+
+
+    #region Changing Code to Support DI
 
 
     //Introduce Dependency Injection using Constructor
@@ -50,4 +51,21 @@ namespace DependencyInjectionDemo
                 $"MyDependency2.WriteMessage called. Message: {message}");
         }
     }
+
+
+
+    public interface IEmailSender
+    {
+        void SendEmail();
+    }
+
+    public class MyEmailSender : IEmailSender
+    {
+        public void SendEmail()
+        {
+            Console.WriteLine("SendEmail: Send Email is called!");
+        }
+    }
+
+    #endregion
 }

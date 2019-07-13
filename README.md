@@ -75,14 +75,13 @@ In demo (Video), We've learnt what is Dependency Injection and what happens if w
 
 .NET Core provides built-in IoC Container
 
-**Steps**
-1) Create a .NET Core Console Application
-2) Install following Package
-- Microsoft.Extensions.DependencyInjection
-3) Add Name space (Microsoft.Extensions.DependencyInjection)
-4) Check MyDependency.cs file
-5) Check Consumer file
-6) Check Program.cs file
+**Agenda**
+- Why do we Need Dependency Injection
+- Example with DI 
+- What is IoC Container
+- Using Builtin IoC Container in .NET Core
+[For More details:](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/dependency-injection?view=aspnetcore-2.2#service-lifetimes-and-registration-options)
+
 ----
 
 ## LoggingDEMO
@@ -96,3 +95,4 @@ In this demo, We've discussed New Logging Framework Provided by .NET Core. We've
 - How to use Configuration with Logging
 - How to use Logger in a different class (e.g. Get Logger from DI)
 - Example of another Provider (NLog)
+
